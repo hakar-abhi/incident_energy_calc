@@ -114,9 +114,9 @@ Hat = rt.*Kte.*Ho; % tilted surface with atmospheric effects
 Hat_trans = (Hat'/6).*1000
 
 
-figure(1),plot(days,Ho, days, Hot); 
-h=plot(days,Ho, days, Hot);
-legend(h,'Ho','Hot');
+figure(1),plot(days,Ho, days, Hat); 
+h=plot(days,Ho, days, Hat);
+legend(h,'Ho','Hat');
 grid, xlabel('Day Number, N'), ylabel('kWh/m2/day'), title('Ho and Hat versus Day of the year');
 
 figure(2),plot(days,Rd,'b',days,rt,'g');
