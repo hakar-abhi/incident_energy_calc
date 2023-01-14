@@ -1,3 +1,5 @@
 # incident_energy_calc
 
 this repo creates a simple model ( compared to commercial products)  incident energy estimation model on horizontal & tilted PV panels with and without atmospheric effects taken into accpount. While taking atmospheric effects into account, I took data from Indian meteorology (publicly available); however you can use your own data and realize your own functions. I used fourier series to estimate the model(function) for weather (atmospheric data) estimation taking recorded data of certain quantity into account. Given huge volume of data, I might use ANN to estimate my model but thats for later. And, also insolation is calculated integrating incident spectral irradiance. Further, script to determine optimum tilt angle of PV for any location is included. And plots to verify each results are also added. More I shall write when I manage my projects. 
+
+Details of project can be found in my website project link <a href = "https://abhisekadhikari.com.np/hestimation/">link</a>
